@@ -1,0 +1,23 @@
+{
+  "name": "graphqlcrud",
+  "version": "1.0.0",
+  "description": "A simple graphql example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramdeoangh/GraphqlnodeAPI.git"
+  },
+  "keywords": [
+    "graphql",
+    "nodejs"
+  ],
+  "author": "ramdeo angh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ramdeoangh/GraphqlnodeAPI/issues"
+  },
+  "homepage": "https://github.com/ramdeoangh/GraphqlnodeAPI#readme"
+}

@@ -1,0 +1,28 @@
+import { User } from "./user";
+
+const users: Array<User> = [];
+
+users.push(
+  new User(
+    1,
+    "Ramdeo",
+    "Angh",
+    "ramdeo.angh@gmail.com",
+    "pune",
+    "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsiaHR0cHM6Ly9pbm5vdmF0aW9uX3BvcnRhbCJdLCJjbGllbnRfaWQiOiI3NDhmZTA5My1kMzBkLTQ1YjktOTJiNy0xNTQ4NjM3MTdhZjUiLCJleHAiOjE1ODc2MzY5NzksImlhdCI6MTU4NzU1MDU3OSwiaXNzIjoidXNlMWMuaW5nLmRldi52ci5ocGJwLmlvIiwianRpIjoiNmVmYzM3MzAtMmYzYy00ZDcyLTgyNDktMGY0Yjc5OTU4NDdiIiwic2NwIjpbXSwic3ViIjoiIiwidHlwZSI6InVzZXIiLCJ1c2VyX2lkIjoiYzlhMjBlOGMtOTEwZS00N2MxLTg3MjUtMjBjMTA3MDJmMzdiIn0.Ul8DMrtTULEz4z8ndNQ_EAemro7LLCWWPkiHsVS5PkW50BLLlEtBQzqI69aTxXOq7HTrh-ewd3kgvv1CstMADE9me-PlpYOFWmjc0ufFpsDe5Sw6hxZeomq8_A_J5wNssAVmI1xp03JFdKwDdiDSwPBuZC0JaEzQrh1jziu7CHPGxo-KCPucUTS1V4usrC68wiU1MUCERH1y4VbFHajSaMSuZ6b_H45vYpWrnaEsPvUwYpaNsetFqYIHgG1MPBPeeC2m-Wzu35HMX4jMfgsXvFMDRrPGzS1GmtXSpPM52wD9jjRvJ0JnMpatScLlS1YTQ6yW5le8CPS1SOktvLxIlg",
+    9
+  )
+);
+users.push(
+  new User(
+    2,
+    "chandan",
+    "choudhary",
+    "chandan@gmail.com",
+    "pune",
+    "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsiaHR0cHM6Ly9pbm5vdmF0aW9uX3BvcnRhbCJdLCJjbGllbnRfaWQiOiI3NDhmZTA5My1kMzBkLTQ1YjktOTJiNy0xNTQ4NjM3MTdhZjUiLCJleHAiOjE1ODc2MzY5NzksImlhdCI6MTU4NzU1MDU3OSwiaXNzIjoidXNlMWMuaW5nLmRldi52ci5ocGJwLmlvIiwianRpIjoiNmVmYzM3MzAtMmYzYy00ZDcyLTgyNDktMGY0Yjc5OTU4NDdiIiwic2NwIjpbXSwic3ViIjoiIiwidHlwZSI6InVzZXIiLCJ1c2VyX2lkIjoiYzlhMjBlOGMtOTEwZS00N2MxLTg3MjUtMjBjMTA3MDJmMzdiIn0.Ul8DMrtTULEz4z8ndNQ_EAemro7LLCWWPkiHsVS5PkW50BLLlEtBQzqI69aTxXOq7HTrh-ewd3kgvv1CstMADE9me-PlpYOFWmjc0ufFpsDe5Sw6hxZeomq8_A_J5wNssAVmI1xp03JFdKwDdiDSwPBuZC0JaEzQrh1jziu7CHPGxo-KCPucUTS1V4usrC68wiU1MUCERH1y4VbFHajSaMSuZ6b_H45vYpWrnaEsPvUwYpaNsetFqYIHgG1MPBPeeC2m-Wzu35HMX4jMfgsXvFMDRrPGzS1GmtXSpPM52wD9jjRvJ0JnMpatScLlS1YTQ6yW5le8CPS1SOktvLxIlg",
+    1
+  )
+);
+
+module.exports.users = users;
